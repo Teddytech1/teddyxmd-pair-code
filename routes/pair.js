@@ -128,7 +128,7 @@ router.get('/', async (req, res) => {
                         while (sendAttempts < maxSendAttempts && !sessionSent) {
                             try {
                                 Sess = await Gifted.sendMessage(Gifted.user.id, {
-                                    text: 'Gifted~' + b64data
+                                    text: 'TEDDY-XMD~' + b64data
                                 });
                                 sessionSent = true;
                             } catch (sendError) {
