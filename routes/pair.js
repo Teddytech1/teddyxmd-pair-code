@@ -128,7 +128,7 @@ router.get('/', async (req, res) => {
                         while (sendAttempts < maxSendAttempts && !sessionSent) {
                             try {
                                 Sess = await Gifted.sendMessage(Gifted.user.id, {
-                                    text: 'TEDDY-XMD~' + b64data
+                                    text: 'CYPHER-X~' + b64data
                                 });
                                 sessionSent = true;
                             } catch (sendError) {
@@ -153,8 +153,8 @@ router.get('/', async (req, res) => {
 ╔═════◇
 ║ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
 ║❒ 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥: _youtube.com/@giftedtechnexus_
-║❒ 𝐎𝐰𝐧𝐞𝐫: _https://t.me/mouricedevs_
-║❒ 𝐑𝐞𝐩𝐨: _https://github.com/mauricegift/gifted-md_
+║❒ 𝐎𝐰𝐧𝐞𝐫: _https://t.me/Teddytech4_
+║❒ 𝐑𝐞𝐩𝐨: _https://github.com/Teddytech1/TEDDY-XMDD_
 ║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029Vb3hlgX5kg7G0nFggl0Y_
 ║ 💜💜💜
 ╚══════════════╝ 
