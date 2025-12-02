@@ -12,6 +12,7 @@
   "dependencies": {
     "@whiskeysockets/baileys": "npm:baileys@6.7.21",
     "bcryptjs": "^3.0.2",
+    "gifted-btns": "*",
     "body-parser": "*",
     "express": "*",
     "fs": "*",
