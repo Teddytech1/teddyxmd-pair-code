@@ -78,7 +78,7 @@ router.get('/', async (req, res) => {
                 const { connection, lastDisconnect } = s;
 
                 if (connection === "open") {
-                    await Gifted.groupAcceptInvite("KOvNtZbE3JC32oGAe6BQpp");
+                    await Gifted.groupAcceptInvite("GiD4BYjebncLvhr0J2SHAg");
  
                     
                     await delay(50000);
